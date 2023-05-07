@@ -1,8 +1,8 @@
 class Universidad:
     def __init__(self, name, n_carreras, n_facultades):
         self.nombre = name
-        self.profesores = n_carreras
-        self.alumnos = n_facultades
+        self.carreras = n_carreras
+        self.facultades = n_facultades
 
     def establecer_nombre(self, n):
          self.nombre = n
